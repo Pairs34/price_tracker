@@ -32,6 +32,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  http: ^0.13.3
+  search_widget: ^1.0.2
+
+# dependency_overrides:
+#   async: ^2.6.1
+#   test_api: ^0.4.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
