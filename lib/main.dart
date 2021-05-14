@@ -34,7 +34,8 @@ class _PriceTrackerState extends State<PriceTracker> {
             onTap: changedNavigationBar,
             currentIndex: selectedTab,
             items: [
-              BottomNavigationBarItem(label: "History", icon: Icon(Icons.home)),
+              BottomNavigationBarItem(
+                  label: "Ürün Listesi", icon: Icon(Icons.shop)),
               BottomNavigationBarItem(
                   label: "Ayarlar", icon: Icon(Icons.settings)),
             ],

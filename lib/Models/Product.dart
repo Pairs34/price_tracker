@@ -1,10 +1,8 @@
-import 'package:flutter/foundation.dart';
-
 class ProductModel {
   String id;
   String productUri;
   String originalPrice;
-  String discountedPrice;
+  double discountedPrice;
   String sellingPrice;
   String seller;
   String company;
@@ -27,7 +25,7 @@ class ProductModel {
       id: json["id"],
       productUri: json["productUri"],
       originalPrice: json["originalPrice"],
-      discountedPrice: json["discountedPrice"],
+      discountedPrice: double.parse(json["discountedPrice"]),
       sellingPrice: json["sellingPrice"],
       seller: json["seller"],
       company: json["company"],

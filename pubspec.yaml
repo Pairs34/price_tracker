@@ -33,7 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   http: ^0.13.3
-  search_widget: ^1.0.2
+  syncfusion_flutter_charts: ^19.1.63
 
 # dependency_overrides:
 #   async: ^2.6.1
