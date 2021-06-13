@@ -24,7 +24,7 @@ class _PricesPageState extends State<PricesPage> {
   }
 
   void GetAllPrices() {
-    var url = Uri.parse('http://185.242.160.147/mysqlcon.php');
+    var url = Uri.parse('http://price.botsepeti.net/api.php');
     http.post(url, body: {'action': 'list_price'}).then((value) => {
           if (value.statusCode == 200)
             {

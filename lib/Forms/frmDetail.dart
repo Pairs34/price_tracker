@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:price_tracker/Models/Product.dart';
 import 'package:price_tracker/Models/ProductHistory.dart';
@@ -30,7 +28,7 @@ class _ProductDetailState extends State<ProductDetail> {
   }
 
   void GetAllPrices() {
-    var url = Uri.parse('http://185.242.160.147/mysqlcon.php');
+    var url = Uri.parse('http://price.botsepeti.net/api.php');
     http.post(url, body: {
       'action': 'get_detail',
       'productId': widget.product.productId
